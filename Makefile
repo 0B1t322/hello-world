@@ -1,5 +1,5 @@
 TARGET = helloworld
-PREFIX = /usr/local/bin
+PREFIX ?= /usr/local/bin
 
 .PHONY: all clean install uninstall
 
